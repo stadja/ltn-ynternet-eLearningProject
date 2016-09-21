@@ -1,0 +1,13 @@
+{
+    "name": "ltn/elearningcourses",
+    "authors": [
+        {
+            "name": "stadja",
+            "email": "stadja@gmail.com"
+        }
+    ],
+    "require": {
+        "owl/tagbox": "~1.0@dev"
+    }
+}
+

@@ -43,3 +43,7 @@ fields:
         size: large
         oc.commentPosition: ''
         type: richeditor
+    tags:
+        label: Test
+        type: owl-tagbox
+

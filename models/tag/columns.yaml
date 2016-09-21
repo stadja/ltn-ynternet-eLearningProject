@@ -1,0 +1,13 @@
+columns:
+    label:
+        label: 'ltn.elearningcourses::lang.tag.label'
+        type: text
+        searchable: true
+        sortable: true
+    parentTag:
+        label: 'ltn.elearningcourses::lang.tag.parent'
+        type: text
+        searchable: true
+        sortable: true
+        select: label
+        relation: parentTag

@@ -1,0 +1,11 @@
+title: 'ltn.elearningcourses::lang.tag.title'
+modelClass: LTN\ElearningCourses\Models\Tag
+list: $/ltn/elearningcourses/models/tag/columns.yaml
+recordUrl: 'ltn/elearningcourses/tags/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

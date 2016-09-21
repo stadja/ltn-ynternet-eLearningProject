@@ -1,0 +1,13 @@
+fields:
+    label:
+        label: 'ltn.elearningcourses::lang.tag.label'
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    parentTag:
+        label: 'ltn.elearningcourses::lang.tag.parent'
+        oc.commentPosition: ''
+        nameFrom: label
+        descriptionFrom: id
+        span: auto
+        type: relation

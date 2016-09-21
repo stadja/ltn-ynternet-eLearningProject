@@ -24,3 +24,7 @@ navigation:
                 label: 'ltn.elearningcourses::lang.classes.manage_menu'
                 url: ltn/elearningcourses/classes
                 icon: icon-file-text
+            tags:
+                label: 'ltn.elearningcourses::lang.tag.title'
+                url: ltn/elearningcourses/tags
+                icon: icon-tags

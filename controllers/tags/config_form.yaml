@@ -1,0 +1,11 @@
+name: Tags
+modelClass: LTN\ElearningCourses\Models\Tag
+form: $/ltn/elearningcourses/models/tag/fields.yaml
+defaultRedirect: ltn/elearningcourses/tags
+create:
+    redirect: 'ltn/elearningcourses/tags/update/:id'
+    redirectClose: ltn/elearningcourses/tags
+update:
+    redirect: ltn/elearningcourses/tags
+    redirectClose: ltn/elearningcourses/tags
+preview: {  }

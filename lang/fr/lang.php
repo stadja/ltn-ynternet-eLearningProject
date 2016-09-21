@@ -14,6 +14,7 @@
         'manage_menu' => 'Cours',
         'plural_label' => 'Cours',
         'singular_label' => 'Cours',
+        'tags' => 'Tags',
     ],
     'class' => [
         'title' => 'Title',
@@ -27,5 +28,10 @@
     ],
     'classes' => [
         'manage_menu' => 'Classes',
+    ],
+    'tag' => [
+        'label' => 'Label',
+        'parent' => 'Parent',
+        'title' => 'Tags',
     ],
 ];
