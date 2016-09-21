@@ -1,0 +1,5 @@
+title: Classes
+modelClass: LTN\ElearningCourses\Models\ClassModel
+nameFrom: title
+toolbar:
+    buttons: reorder_toolbar

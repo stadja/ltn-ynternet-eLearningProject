@@ -1,0 +1,41 @@
+fields:
+    title:
+        label: 'ltn.elearningcourses::lang.course.title'
+        oc.commentPosition: ''
+        span: auto
+        required: 1
+        type: text
+    slug:
+        label: 'ltn.elearningcourses::lang.course.slug'
+        oc.commentPosition: ''
+        span: auto
+        required: 1
+        preset:
+            field: title
+            type: slug
+        type: text
+    full_description:
+        label: 'ltn.elearningcourses::lang.course.full_description'
+        size: large
+        oc.commentPosition: ''
+        span: full
+        type: richeditor
+    small_description:
+        label: 'ltn.elearningcourses::lang.course.small_description'
+        size: small
+        oc.commentPosition: ''
+        span: full
+        defaultFrom: full_description
+        dependsOn:
+            - full_description
+        preset:
+            field: full_description
+            type: exact
+        type: richeditor
+    classes:
+        label: Relation
+        oc.commentPosition: ''
+        nameFrom: title
+        descriptionFrom: intro
+        span: auto
+        type: relation

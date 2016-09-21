@@ -1,0 +1,17 @@
+columns:
+    title:
+        label: 'ltn.elearningcourses::lang.class.title'
+        type: text
+        searchable: true
+        sortable: true
+    course:
+        label: 'ltn.elearningcourses::lang.course.singular_label'
+        type: text
+        searchable: true
+        sortable: true
+        select: title
+        relation: course
+    position:
+        label: 'ltn.elearningcourses::lang.class.position'
+        type: number
+        sortable: true

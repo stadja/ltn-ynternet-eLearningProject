@@ -1,0 +1,26 @@
+plugin:
+    name: 'ltn.elearningcourses::lang.plugin.name'
+    description: 'ltn.elearningcourses::lang.plugin.description'
+    author: LTN
+    icon: oc-icon-university
+    homepage: ''
+permissions:
+    ltn.ynternet.elearning.manage_courses:
+        tab: 'ltn.elearningcourses::lang.plugin.name'
+        label: 'ltn.elearningcourses::lang.course.manage_courses'
+navigation:
+    'Ynternet eLearning project':
+        label: 'ltn.elearningcourses::lang.plugin.menu_name'
+        url: ltn/elearningcourses/courses
+        icon: icon-university
+        permissions:
+            - ltn.ynternet.elearning.manage_courses
+        sideMenu:
+            courses:
+                label: 'ltn.elearningcourses::lang.course.manage_menu'
+                url: ltn/elearningcourses/courses
+                icon: icon-book
+            classes:
+                label: 'ltn.elearningcourses::lang.classes.manage_menu'
+                url: ltn/elearningcourses/classes
+                icon: icon-file-text
