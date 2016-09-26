@@ -3,7 +3,7 @@
 use Backend\Classes\Controller;
 use BackendMenu;
 
-class Classes extends Controller
+class Modules extends Controller
 {
     public $implement = ['Backend\Behaviors\ListController','Backend\Behaviors\FormController','LTN\ElearningCourses\Behaviors\GroupReorderController'];
 

@@ -44,8 +44,8 @@ class Tag extends Model
 
     public $belongsToMany = [
         'classes' => [
-            '\LTN\ElearningCourses\Models\ClassModel',
-            'table' => 'ltn_elearningcourses_classe_tag',
+            '\LTN\ElearningCourses\Models\Module',
+            'table' => 'ltn_elearningcourses_module_tag',
             'key'      => 'tag_id',
             'otherKey' => 'class_id'
         ]

@@ -1,5 +1,5 @@
 title: Classes
-modelClass: LTN\ElearningCourses\Models\ClassModel
+modelClass: LTN\ElearningCourses\Models\Module
 nameFrom: title
 toolbar:
     buttons: reorder_toolbar

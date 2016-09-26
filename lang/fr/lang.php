@@ -16,18 +16,18 @@
         'singular_label' => 'Cours',
         'tags' => 'Tags',
     ],
-    'class' => [
+    'module' => [
         'title' => 'Title',
         'intro' => 'Introduction',
         'slug' => 'Slug',
-        'plural_label' => 'Classes',
-        'manage_menu' => 'Classes',
+        'plural_label' => 'Modules',
+        'manage_menu' => 'Modules',
         'position' => 'Position du cours dans la liste',
         'content' => 'Content',
         'conclusion' => 'Conclusion',
     ],
-    'classes' => [
-        'manage_menu' => 'Classes',
+    'modules' => [
+        'manage_menu' => 'Modules',
     ],
     'tag' => [
         'label' => 'Label',

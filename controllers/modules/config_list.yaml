@@ -1,7 +1,7 @@
-title: Classes
-modelClass: LTN\ElearningCourses\Models\ClassModel
-list: $/ltn/elearningcourses/models/classmodel/columns.yaml
-recordUrl: 'ltn/elearningcourses/classes/update/:id'
+title: Modules
+modelClass: LTN\ElearningCourses\Models\Module
+list: $/ltn/elearningcourses/models/module/columns.yaml
+recordUrl: 'ltn/elearningcourses/modules/update/:id'
 noRecordsMessage: 'backend::lang.list.no_records'
 showSetup: true
 showCheckboxes: true

@@ -21,8 +21,8 @@ navigation:
                 url: ltn/elearningcourses/courses
                 icon: icon-book
             classes:
-                label: 'ltn.elearningcourses::lang.classes.manage_menu'
-                url: ltn/elearningcourses/classes
+                label: 'ltn.elearningcourses::lang.modules.manage_menu'
+                url: ltn/elearningcourses/modules
                 icon: icon-file-text
             tags:
                 label: 'ltn.elearningcourses::lang.tag.title'

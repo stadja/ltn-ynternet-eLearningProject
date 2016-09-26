@@ -39,3 +39,9 @@
 1.0.14:
     - 'Updated table ltn_elearningcourses_classes'
     - builder_table_update_ltn_elearningcourses_classes_7.php
+1.0.15:
+    - 'Updated table ltn_elearningcourses_classes'
+    - builder_table_update_ltn_elearningcourses_modules.php
+1.0.16:
+    - 'Updated table ltn_elearningcourses_classe_tag'
+    - builder_table_update_ltn_elearningcourses_module_tag.php

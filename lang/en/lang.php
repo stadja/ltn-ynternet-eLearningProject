@@ -13,12 +13,12 @@
         'manage_menu' => 'Courses',
         'singular_label' => 'Course'
     ],
-    'class' => [
+    'module' => [
         'title' => 'Title',
         'intro' => 'Introduction',
         'introduction' => 'Introduction',
         'slug' => 'Slug',
-        'plural_label' => 'Classes',
-        'manage_menu' => 'Classes',
+        'plural_label' => 'Modules',
+        'manage_menu' => 'Modules',
     ],
 ];

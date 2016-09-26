@@ -38,13 +38,13 @@ class Course extends Model
 
     public $hasMany = [
         'classes' => [
-            '\LTN\ElearningCourses\Models\ClassModel',
+            '\LTN\ElearningCourses\Models\Module',
             'key'      => 'course_id',
             'otherKey' => 'id',
             'order' => 'position asc'
         ],
         'classes_count' => [
-            '\LTN\ElearningCourses\Models\ClassModel',
+            '\LTN\ElearningCourses\Models\Module',
             'key'      => 'course_id',
             'otherKey' => 'id',
             'count' => true

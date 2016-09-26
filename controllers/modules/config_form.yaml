@@ -1,0 +1,11 @@
+name: Modules
+modelClass: LTN\ElearningCourses\Models\Module
+form: $/ltn/elearningcourses/models/module/fields.yaml
+defaultRedirect: ltn/elearningcourses/modules
+create:
+    redirect: 'ltn/elearningcourses/modules/update/:id'
+    redirectClose: ltn/elearningcourses/modules
+update:
+    redirect: ltn/elearningcourses/modules
+    redirectClose: ltn/elearningcourses/modules
+preview: {  }

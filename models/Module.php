@@ -1,13 +1,13 @@
 <?php namespace LTN\ElearningCourses\Models;
 
 use Model;
-use \LTN\ElearningCourses\Models\ClassTag;
+use \LTN\ElearningCourses\Models\ModuleTag;
 use \LTN\ElearningCourses\Models\Tag;
 
 /**
  * Model
  */
-class ClassModel extends Model
+class Module extends Model
 {
     use \October\Rain\Database\Traits\Validation;
     use \October\Rain\Database\Traits\Sortable;
@@ -39,7 +39,7 @@ class ClassModel extends Model
     /**
      * @var string The database table used by the model.
      */
-    public $table = 'ltn_elearningcourses_classes';
+    public $table = 'ltn_elearningcourses_modules';
 
     public $belongsTo = [
         'course' => [
@@ -67,9 +67,9 @@ class ClassModel extends Model
      * @param array(string) $tags array of tag label
      */
     public function setTagsAttribute($tags) {
-        $classTags = ClassTag::where('class_id', $this->id)->get();
-        foreach($classTags as $classTag) {
-            $classTag->delete();
+        $ModuleTags = ModuleTag::where('class_id', $this->id)->get();
+        foreach($ModuleTags as $ModuleTag) {
+            $ModuleTag->delete();
         }
 
         $tagArray = array();
@@ -86,10 +86,10 @@ class ClassModel extends Model
         }
 
         foreach ($tagArray as $tag) {
-            $classTag = new ClassTag();
-            $classTag->class = $this;
-            $classTag->tag = $tag;
-            $classTag->save();
+            $ModuleTag = new ModuleTag();
+            $ModuleTag->class = $this;
+            $ModuleTag->tag = $tag;
+            $ModuleTag->save();
         }
     }
 
@@ -98,8 +98,8 @@ class ClassModel extends Model
      * @return array(string) $tags array of tag label
      */
     public function getTagsAttribute() {
-        $classTags = ClassTag::where('class_id', $this->id)->get();
-        $tags = $classTags->transform(function ($item, $key) {
+        $ModuleTags = ModuleTag::where('class_id', $this->id)->get();
+        $tags = $ModuleTags->transform(function ($item, $key) {
             return $item->tag->label;
         })->all();
 
