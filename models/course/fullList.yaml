@@ -5,7 +5,7 @@ columns:
         searchable: true
         sortable: true
     classes_count:
-        label: 'Nombre de classes'
+        label: 'ltn.elearningcourses::lang.course.number_of_module'
         type: number
         relation: classes_count
         valueFrom: count

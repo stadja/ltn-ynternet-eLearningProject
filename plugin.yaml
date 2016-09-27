@@ -28,3 +28,7 @@ navigation:
                 label: 'ltn.elearningcourses::lang.tag.title'
                 url: ltn/elearningcourses/tags
                 icon: icon-tags
+            conferences:
+                label: 'ltn.elearningcourses::lang.conference.menu'
+                url: ltn/elearningcourses/conferences
+                icon: icon-wechat

@@ -1,0 +1,10 @@
+columns:
+    title:
+        label: 'ltn.elearningcourses::lang.conference.title'
+        type: text
+        searchable: true
+        sortable: true
+    tag_label:
+        label: 'ltn.elearningcourses::lang.tag.title'
+        type: text
+        sortable: false

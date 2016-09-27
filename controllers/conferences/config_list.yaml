@@ -1,0 +1,11 @@
+title: Conferences
+modelClass: LTN\ElearningCourses\Models\Conference
+list: $/ltn/elearningcourses/models/conference/columns.yaml
+recordUrl: 'ltn/elearningcourses/conferences/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

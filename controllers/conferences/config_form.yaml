@@ -1,0 +1,11 @@
+name: Conferences
+modelClass: LTN\ElearningCourses\Models\Conference
+form: $/ltn/elearningcourses/models/conference/fields.yaml
+defaultRedirect: ltn/elearningcourses/conferences
+create:
+    redirect: 'ltn/elearningcourses/conferences/update/:id'
+    redirectClose: ltn/elearningcourses/conferences
+update:
+    redirect: ltn/elearningcourses/conferences
+    redirectClose: ltn/elearningcourses/conferences
+preview: {  }

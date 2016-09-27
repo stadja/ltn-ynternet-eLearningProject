@@ -5,7 +5,7 @@ use Model;
 /**
  * Model
  */
-class ModuleTag extends Model
+class ConferenceTag extends Model
 {
     use \October\Rain\Database\Traits\Validation;
 
@@ -24,12 +24,12 @@ class ModuleTag extends Model
     /**
      * @var string The database table used by the model.
      */
-    public $table = 'ltn_elearningcourses_module_tag';
+    public $table = 'ltn_elearningcourses_conference_tag';
 
     public $belongsTo = [
-        'module' => [
-            '\LTN\ElearningCourses\Models\Module',
-            'key'      => 'module_id',
+        'conference' => [
+            '\LTN\ElearningCourses\Models\Conference',
+            'key'      => 'conference_id',
             'otherKey' => 'id'
         ],
         'tag' => [

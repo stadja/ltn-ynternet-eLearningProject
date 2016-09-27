@@ -33,7 +33,7 @@ fields:
             type: exact
         type: richeditor
     classes:
-        label: Relation
+        label: 'ltn.elearningcourses::lang.module.plural_label'
         oc.commentPosition: ''
         nameFrom: title
         descriptionFrom: intro

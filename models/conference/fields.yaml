@@ -1,0 +1,55 @@
+fields:
+    title:
+        label: 'ltn.elearningcourses::lang.conference.title'
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    slug:
+        label: 'ltn.elearningcourses::lang.conference.slug'
+        oc.commentPosition: ''
+        span: auto
+        preset:
+            field: title
+            type: slug
+        type: text
+    date:
+        label: 'ltn.elearningcourses::lang.conference.date'
+        oc.commentPosition: ''
+        mode: datetime
+        span: auto
+        type: datepicker
+    link:
+        label: 'ltn.elearningcourses::lang.conference.link'
+        oc.commentPosition: ''
+        span: full
+        type: text
+    address:
+        label: 'ltn.elearningcourses::lang.conference.address'
+        oc.commentPosition: ''
+        span: full
+        type: text
+    city:
+        label: 'ltn.elearningcourses::lang.conference.city'
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    zipcode:
+        label: 'ltn.elearningcourses::lang.conference.zipcode'
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    country:
+        label: 'ltn.elearningcourses::lang.conference.country'
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    description:
+        label: 'ltn.elearningcourses::lang.conference.description'
+        size: large
+        oc.commentPosition: ''
+        span: full
+        stretch: 0
+        type: richeditor
+    tags:
+        label: 'ltn.elearningcourses::lang.tag.title'
+        type: owl-tagbox

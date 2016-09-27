@@ -15,6 +15,7 @@
         'plural_label' => 'Cours',
         'singular_label' => 'Cours',
         'tags' => 'Tags',
+        'number_of_module' => 'Nombre de modules'
     ],
     'module' => [
         'title' => 'Title',
@@ -33,5 +34,19 @@
         'label' => 'Label',
         'parent' => 'Parent',
         'title' => 'Tags',
+    ],
+    'conference' => [
+        'title' => 'Titre',
+        'tab1' => 'Info',
+        'date' => 'Date',
+        'geo' => 'Geo',
+        'address' => 'Adresse',
+        'zipcode' => 'Zip Code',
+        'city' => 'City',
+        'country' => 'Country',
+        'description' => 'Description',
+        'link' => 'Link',
+        'menu' => 'Conferences',
+        'slug' => 'Slug',
     ],
 ];

@@ -1,11 +1,11 @@
 fields:
     title:
-        label: 'ltn.elearningcourses::lang.class.title'
+        label: 'ltn.elearningcourses::lang.module.title'
         oc.commentPosition: ''
         span: auto
         type: text
     slug:
-        label: 'ltn.elearningcourses::lang.class.slug'
+        label: 'ltn.elearningcourses::lang.module.slug'
         oc.commentPosition: ''
         span: auto
         preset:
@@ -20,30 +20,30 @@ fields:
         span: auto
         type: relation
     position:
-        label: 'ltn.elearningcourses::lang.class.position'
+        label: 'ltn.elearningcourses::lang.module.position'
         oc.commentPosition: ''
         span: auto
         default: '0'
         type: number
     intro:
-        label: 'ltn.elearningcourses::lang.class.intro'
+        label: 'ltn.elearningcourses::lang.module.intro'
         size: large
         oc.commentPosition: ''
         span: full
         type: richeditor
     content:
-        label: 'ltn.elearningcourses::lang.class.content'
+        label: 'ltn.elearningcourses::lang.module.content'
         size: large
         oc.commentPosition: ''
         span: full
         type: richeditor
     conclusion:
-        label: 'ltn.elearningcourses::lang.class.conclusion'
+        label: 'ltn.elearningcourses::lang.module.conclusion'
         span: full
         size: large
         oc.commentPosition: ''
         type: richeditor
     tags:
-        label: Test
+        label: 'ltn.elearningcourses::lang.tag.title'
         type: owl-tagbox
 

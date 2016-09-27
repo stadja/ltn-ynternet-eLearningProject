@@ -1,6 +1,6 @@
 columns:
     title:
-        label: 'ltn.elearningcourses::lang.class.title'
+        label: 'ltn.elearningcourses::lang.module.title'
         type: text
         searchable: true
         sortable: true
@@ -12,10 +12,10 @@ columns:
         select: title
         relation: course
     tag_label:
-        label: 'ltn.elearningcourses::lang.course.tags'
+        label: 'ltn.elearningcourses::lang.tag.title'
         type: text
         sortable: false
     position:
-        label: 'ltn.elearningcourses::lang.class.position'
+        label: 'ltn.elearningcourses::lang.module.position'
         type: number
         sortable: true

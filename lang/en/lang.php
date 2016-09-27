@@ -3,6 +3,7 @@
         'name' => 'eLearning Courses',
         'description' => 'This plugin will hold all courses information for the Ynternet eLearning school project',
         'menu_name' => 'Ynternet eLearning project',
+        'sort' => 'Réorganiser',
     ],
     'course' => [
         'title' => 'Title',
@@ -10,15 +11,42 @@
         'full_description' => 'Full description',
         'small_description' => 'Small description',
         'manage_courses' => 'Manage courses',
-        'manage_menu' => 'Courses',
-        'singular_label' => 'Course'
+        'manage_menu' => 'Cours',
+        'plural_label' => 'Cours',
+        'singular_label' => 'Cours',
+        'tags' => 'Tags',
+        'number_of_module' => 'Number of modules'
     ],
     'module' => [
         'title' => 'Title',
         'intro' => 'Introduction',
-        'introduction' => 'Introduction',
         'slug' => 'Slug',
         'plural_label' => 'Modules',
         'manage_menu' => 'Modules',
+        'position' => 'Position du cours dans la liste',
+        'content' => 'Content',
+        'conclusion' => 'Conclusion',
+    ],
+    'modules' => [
+        'manage_menu' => 'Modules',
+    ],
+    'tag' => [
+        'label' => 'Label',
+        'parent' => 'Parent',
+        'title' => 'Tags',
+    ],
+    'conference' => [
+        'title' => 'Titre',
+        'tab1' => 'Info',
+        'date' => 'Date',
+        'geo' => 'Geo',
+        'address' => 'Adresse',
+        'zipcode' => 'Zip Code',
+        'city' => 'City',
+        'country' => 'Country',
+        'description' => 'Description',
+        'link' => 'Link',
+        'menu' => 'Conferences',
+        'slug' => 'Slug',
     ],
 ];
