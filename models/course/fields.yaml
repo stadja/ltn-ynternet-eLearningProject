@@ -39,3 +39,6 @@ fields:
         descriptionFrom: intro
         span: auto
         type: relation
+    tags:
+        label: 'ltn.elearningcourses::lang.tag.title'
+        type: owl-tagbox

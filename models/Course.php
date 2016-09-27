@@ -8,6 +8,7 @@ use Model;
 class Course extends Model
 {
     use \October\Rain\Database\Traits\Validation;
+    use \LTN\ElearningCourses\Traits\Taggable;
 
     /**
      * Softly implement the TranslatableModel behavior.

@@ -13,3 +13,7 @@ columns:
     small_description:
         label: 'ltn.elearningcourses::lang.course.small_description'
         type: text
+    tag_label:
+        label: 'ltn.elearningcourses::lang.tag.title'
+        type: text
+        sortable: false

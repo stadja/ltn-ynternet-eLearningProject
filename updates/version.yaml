@@ -66,3 +66,18 @@
 1.0.23:
     - 'Updated table ltn_elearningcourses_module_tag'
     - builder_table_update_ltn_elearningcourses_module_tag_2.php
+1.0.24:
+    - 'Created table ltn_elearningcourses_course_tag'
+    - builder_table_create_ltn_elearningcourses_course_tag.php
+1.0.25:
+    - 'Created table ltn_elearningcourses_entity_tag'
+    - builder_table_create_ltn_elearningcourses_entity_tag.php
+1.0.26:
+    - 'Drop table ltn_elearningcourses_conference_tag'
+    - builder_table_delete_ltn_elearningcourses_conference_tag.php
+1.0.27:
+    - 'Drop table ltn_elearningcourses_course_tag'
+    - builder_table_delete_ltn_elearningcourses_course_tag.php
+1.0.28:
+    - 'Drop table ltn_elearningcourses_module_tag'
+    - builder_table_delete_ltn_elearningcourses_module_tag.php
