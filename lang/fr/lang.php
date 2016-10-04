@@ -15,7 +15,7 @@
         'plural_label' => 'Cours',
         'singular_label' => 'Cours',
         'tags' => 'Tags',
-        'number_of_module' => 'Nombre de modules'
+        'number_of_module' => 'Nombre de modules',
     ],
     'module' => [
         'title' => 'Title',
@@ -48,5 +48,12 @@
         'link' => 'Link',
         'menu' => 'Conferences',
         'slug' => 'Slug',
+    ],
+    'blog' => [
+        'title' => 'Title',
+        'slug' => 'Slug',
+        'content' => 'Content',
+        'date' => 'Date',
+        'menu' => 'Blog',
     ],
 ];

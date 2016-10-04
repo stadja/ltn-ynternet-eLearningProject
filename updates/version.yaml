@@ -81,3 +81,15 @@
 1.0.28:
     - 'Drop table ltn_elearningcourses_module_tag'
     - builder_table_delete_ltn_elearningcourses_module_tag.php
+1.0.29:
+    - 'Updated table ltn_elearningcourses_blog'
+    - builder_table_update_ltn_elearningcourses_blog_post.php
+1.0.30:
+    - 'Updated table ltn_elearningcourses_blog_post'
+    - builder_table_update_ltn_elearningcourses_blog_post_2.php
+1.0.31:
+    - 'Updated table ltn_elearningcourses_blog_post'
+    - builder_table_update_ltn_elearningcourses_blog_post_3.php
+1.0.32:
+    - 'Updated table ltn_elearningcourses_modules'
+    - builder_table_update_ltn_elearningcourses_modules_2.php

@@ -1,0 +1,11 @@
+name: Blog
+modelClass: LTN\ElearningCourses\Models\BlogPost
+form: $/ltn/elearningcourses/models/blogpost/fields.yaml
+defaultRedirect: ltn/elearningcourses/blog
+create:
+    redirect: 'ltn/elearningcourses/blog/update/:id'
+    redirectClose: ltn/elearningcourses/blog
+update:
+    redirect: ltn/elearningcourses/blog
+    redirectClose: ltn/elearningcourses/blog
+preview: {  }

@@ -1,0 +1,30 @@
+fields:
+    title:
+        label: 'ltn.elearningcourses::lang.blog.title'
+        oc.commentPosition: ''
+        span: auto
+        type: text
+    slug:
+        label: 'ltn.elearningcourses::lang.blog.slug'
+        oc.commentPosition: ''
+        span: auto
+        preset:
+            field: title
+            type: slug
+        type: text
+    date:
+        label: 'ltn.elearningcourses::lang.blog.date'
+        oc.commentPosition: ''
+        mode: datetime
+        span: auto
+        type: datepicker
+    tags:
+        label: 'ltn.elearningcourses::lang.tag.title'
+        span: auto
+        type: owl-tagbox
+    content:
+        label: 'ltn.elearningcourses::lang.blog.content'
+        size: huge
+        oc.commentPosition: ''
+        span: full
+        type: richeditor

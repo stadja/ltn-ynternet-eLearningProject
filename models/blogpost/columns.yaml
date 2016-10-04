@@ -1,0 +1,14 @@
+columns:
+    title:
+        label: 'ltn.elearningcourses::lang.blog.title'
+        type: text
+        searchable: true
+        sortable: true
+    date:
+        label: 'ltn.elearningcourses::lang.blog.date'
+        type: datetime
+        sortable: true
+    tag_label:
+        label: 'ltn.elearningcourses::lang.tag.title'
+        type: text
+        sortable: false
