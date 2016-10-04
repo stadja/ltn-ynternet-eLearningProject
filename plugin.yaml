@@ -1,7 +1,7 @@
 plugin:
     name: 'ltn.elearningcourses::lang.plugin.name'
     description: 'ltn.elearningcourses::lang.plugin.description'
-    author: LTN
+    author: Ltn
     icon: oc-icon-university
     homepage: ''
 permissions:
